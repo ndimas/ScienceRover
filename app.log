@@ -1,0 +1,22 @@
+2024-09-12 21:05:02,236 - WARNING -  * Debugger is active!
+2024-09-12 21:05:02,237 - INFO -  * Debugger PIN: 918-140-949
+2024-09-12 21:05:04,527 - INFO -  * Detected change in '/home/runner/PythonPaperBoilerplate/agents/ontologist.py', reloading
+2024-09-12 21:05:06,599 - WARNING -  * Debugger is active!
+2024-09-12 21:05:06,602 - INFO -  * Debugger PIN: 748-914-806
+2024-09-12 21:05:09,120 - INFO -  * Detected change in '/home/runner/PythonPaperBoilerplate/agents/scientist.py', reloading
+2024-09-12 21:05:09,767 - WARNING -  * Debugger is active!
+2024-09-12 21:05:09,769 - INFO -  * Debugger PIN: 141-201-589
+2024-09-12 21:05:10,921 - INFO -  * Detected change in '/home/runner/PythonPaperBoilerplate/agents/critic.py', reloading
+2024-09-12 21:05:11,513 - WARNING -  * Debugger is active!
+2024-09-12 21:05:11,514 - INFO -  * Debugger PIN: 143-043-753
+2024-09-12 21:05:12,447 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.98:5000
+2024-09-12 21:05:12,448 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-12 21:05:12,448 - INFO -  * Restarting with stat
+2024-09-12 21:05:12,946 - WARNING -  * Debugger is active!
+2024-09-12 21:05:12,948 - INFO -  * Debugger PIN: 325-937-710
+2024-09-12 21:05:13,010 - INFO - 172.31.196.98 - - [12/Sep/2024 21:05:13] "GET /?initialPath=/&id=:rpv: HTTP/1.1" 200 -
+2024-09-12 21:05:13,174 - INFO - 172.31.196.98 - - [12/Sep/2024 21:05:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-12 21:05:13,675 - INFO - 172.31.196.98 - - [12/Sep/2024 21:05:13] "GET /static/js/main.js HTTP/1.1" 200 -
