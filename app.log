@@ -35,3 +35,63 @@
 2024-09-12 21:08:12,881 - INFO - 172.31.196.98 - - [12/Sep/2024 21:08:12] "GET / HTTP/1.1" 200 -
 2024-09-12 21:08:12,891 - INFO - 172.31.196.98 - - [12/Sep/2024 21:08:12] "GET /static/css/style.css HTTP/1.1" 200 -
 2024-09-12 21:08:12,909 - INFO - 172.31.196.98 - - [12/Sep/2024 21:08:12] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-09-12 21:09:51,957 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.98:5000
+2024-09-12 21:09:51,957 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-12 21:09:51,958 - INFO -  * Restarting with stat
+2024-09-12 21:09:52,490 - WARNING -  * Debugger is active!
+2024-09-12 21:09:52,492 - INFO -  * Debugger PIN: 597-021-063
+2024-09-12 21:09:52,557 - INFO - 172.31.196.98 - - [12/Sep/2024 21:09:52] "GET /?initialPath=/&id=:rt1: HTTP/1.1" 200 -
+2024-09-12 21:09:52,723 - INFO - 172.31.196.98 - - [12/Sep/2024 21:09:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-09-12 21:09:52,880 - INFO - 172.31.196.98 - - [12/Sep/2024 21:09:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-09-12 21:10:01,981 - INFO - 172.31.196.98 - - [12/Sep/2024 21:10:01] "GET /?initialPath=/&id=:rtn: HTTP/1.1" 200 -
+2024-09-12 21:10:02,143 - INFO - 172.31.196.98 - - [12/Sep/2024 21:10:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-12 21:10:02,224 - INFO - 172.31.196.98 - - [12/Sep/2024 21:10:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-09-12 21:10:03,899 - INFO - 172.31.196.98 - - [12/Sep/2024 21:10:03] "GET / HTTP/1.1" 200 -
+2024-09-12 21:10:03,919 - INFO - 172.31.196.98 - - [12/Sep/2024 21:10:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-09-12 21:10:03,972 - INFO - 172.31.196.98 - - [12/Sep/2024 21:10:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-09-12 21:15:14,548 - INFO - ScienceRover: Received request for hypothesis generation with concepts: ['silk', 'water scarcity']
+2024-09-12 21:15:14,549 - INFO - 172.31.196.98 - - [12/Sep/2024 21:15:14] "POST /generate_hypothesis HTTP/1.1" 200 -
+2024-09-12 21:15:14,668 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-12 21:15:16,162 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-12 21:15:17,658 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-12 21:17:24,886 - INFO -  * Detected change in '/home/runner/PythonPaperBoilerplate/agents/ontologist.py', reloading
+2024-09-12 21:17:25,074 - INFO -  * Restarting with stat
+2024-09-12 21:27:13,423 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.98:5000
+2024-09-12 21:27:13,432 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-12 21:27:13,434 - INFO -  * Restarting with stat
+2024-09-12 21:27:15,266 - WARNING -  * Debugger is active!
+2024-09-12 21:27:34,914 - INFO -  * Debugger PIN: 114-548-892
+2024-09-12 21:27:35,134 - INFO - 172.31.196.98 - - [12/Sep/2024 21:27:35] "GET /?initialPath=/&id=:r236: HTTP/1.1" 200 -
+2024-09-12 21:27:35,328 - INFO - 172.31.196.98 - - [12/Sep/2024 21:27:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-12 21:27:35,485 - INFO - 172.31.196.98 - - [12/Sep/2024 21:27:35] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-09-12 21:27:37,652 - INFO -  * Detected change in '/home/runner/PythonPaperBoilerplate/agents/scientist.py', reloading
+2024-09-12 21:27:37,923 - INFO -  * Restarting with stat
+2024-09-12 21:30:06,145 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.98:5000
+2024-09-12 21:30:06,146 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-12 21:30:06,149 - INFO -  * Restarting with stat
+2024-09-12 21:30:08,286 - WARNING -  * Debugger is active!
+2024-09-12 21:30:08,289 - INFO -  * Debugger PIN: 829-259-434
+2024-09-12 21:30:36,025 - INFO - 172.31.196.98 - - [12/Sep/2024 21:30:36] "GET /?initialPath=/&id=:r27p: HTTP/1.1" 200 -
+2024-09-12 21:30:36,204 - INFO - 172.31.196.98 - - [12/Sep/2024 21:30:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-12 21:30:36,359 - INFO - 172.31.196.98 - - [12/Sep/2024 21:30:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-09-12 21:30:51,440 - INFO -  * Detected change in '/home/runner/PythonPaperBoilerplate/agents/graph_reasoning.py', reloading
+2024-09-12 21:30:51,681 - INFO -  * Restarting with stat
+2024-09-12 21:30:54,060 - WARNING -  * Debugger is active!
+2024-09-12 21:30:54,068 - INFO -  * Debugger PIN: 113-829-221
+2024-09-12 21:30:54,464 - INFO -  * Detected change in '/home/runner/PythonPaperBoilerplate/main.py', reloading
+2024-09-12 21:30:54,795 - INFO -  * Restarting with stat
+2024-09-12 21:30:58,483 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.98:5000
+2024-09-12 21:30:58,483 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-12 21:30:58,486 - INFO -  * Restarting with stat

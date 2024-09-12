@@ -15,11 +15,15 @@
             <li>Enter two or more concepts separated by commas in the input field below.</li>
             <li>Click the "Generate Hypothesis" button to start the process.</li>
             <li>Wait for the system to analyze the concepts and generate results.</li>
-            <li>Review the output from the Ontologist, Scientist, and Critic agents.</li>
+            <li>Review the output from the Graph Analysis, Ontologist, Scientist, and Critic agents.</li>
         </ol>
     </div>
     <input type="text" id="concept-input" placeholder="Enter concepts separated by commas (e.g., silk, energy-intensive, biomaterials)">
     <button id="generate-btn">Generate Hypothesis</button>
+    <div class="loading">
+        <div class="loading-spinner"></div>
+        <p>Generating hypothesis... This may take a few moments.</p>
+    </div>
     <div id="results"></div>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
