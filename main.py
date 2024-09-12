@@ -18,7 +18,7 @@ def generate_hypothesis():
     concepts = request.json['concepts']
     
     # Log the input
-    logging.info(f"Received request for hypothesis generation with concepts: {concepts}")
+    logging.info(f"ScienceRover: Received request for hypothesis generation with concepts: {concepts}")
     
     # Create a simple graph
     G = nx.Graph()
